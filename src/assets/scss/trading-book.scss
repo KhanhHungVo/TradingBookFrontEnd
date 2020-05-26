@@ -1,0 +1,72 @@
+
+@import 'trading-book/variables';
+@import 'trading-book/mixins';
+
+// Plugins CSS
+@import "trading-book/plugins/plugin-animate-bootstrap-notify";
+@import "trading-book/plugins/plugin-perfect-scrollbar";
+
+// Core CSS
+@import "trading-book/buttons";
+@import "trading-book/inputs";
+@import "trading-book/typography";
+@import "trading-book/misc";
+@import "trading-book/checkboxes-radio";
+
+
+// components
+@import "trading-book/navbar";
+@import "trading-book/page-header";
+@import "trading-book/dropdown";
+@import "trading-book/alerts";
+@import "trading-book/images";
+@import "trading-book/nucleo-outline";
+@import "trading-book/tables";
+@import "trading-book/sidebar-and-main-panel";
+@import "trading-book/footers";
+@import "trading-book/fixed-plugin";
+
+// cards
+@import "trading-book/cards";
+@import "trading-book/cards/card-plain";
+@import "trading-book/cards/card-chart";
+@import "trading-book/cards/card-user";
+@import "trading-book/cards/card-map";
+@import "trading-book/cards/card-stats";
+
+// angular differences
+@import "trading-book/angular/plugin-ngx-toastr";
+@import "trading-book/angular/sidebar-and-main-panel";
+@import "trading-book/angular/dropdown";
+@import "trading-book/angular/inputs";
+@import "trading-book/angular/fixed-plugin";
+
+@import "trading-book/responsive";
+
+
+
+/////////////////////////////////////////////////
+// TOP-LEVEL STYLES
+/////////////////////////////////////////////////
+body {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #323232;
+    padding-top: 54px;
+  }
+  
+a {
+color: #337ab7;
+border-bottom: 0px solid #337ab7;
+padding-bottom: 1px;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.tra-user-username {
+    margin-left: 10px;
+    margin-right: 10px;
+}
